@@ -24,5 +24,11 @@ export default defineNuxtConfig({
     ssr: {
       noExternal: ['ant-design-vue']
     }
-  }
+  },
+  fonts: {
+    providers: {
+      google: false,
+      googleicons: false
+    }
+  },
 })
