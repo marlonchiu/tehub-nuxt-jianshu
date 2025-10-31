@@ -25,10 +25,11 @@ export default defineNuxtConfig({
       noExternal: ['ant-design-vue']
     }
   },
+  modules: ['@pinia/nuxt', '@pinia-plugin-persistedstate/nuxt'],
   fonts: {
     providers: {
       google: false,
       googleicons: false
     }
-  },
+  }
 })
